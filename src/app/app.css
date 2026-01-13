@@ -1,0 +1,10 @@
+.content{
+    background-color: #212121;
+    height: 90vh;
+    width: 100%;
+}
+
+.container{
+   display: flex;
+   justify-content:unset;   
+}
