@@ -3,4 +3,21 @@
     height: 10vh;
     width: 100%;
     position: fixed;
+    text-align: center;
+}
+button{
+border: none;
+color: white;
+padding-left: 40px;
+opacity: 0.5;
+text-align: center;
+width: 100px;
+}
+button:hover{
+    opacity: 1;
+    box-shadow: white;
+}
+img{
+    height: 40px;
+    width: 40px;
 }
