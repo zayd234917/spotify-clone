@@ -6,14 +6,18 @@ import { OnInit } from '@angular/core';
   templateUrl: './footer.html',
   styleUrl: './footer.css',
 })
-export class Footer implements OnInit{
-     playing : boolean = true;
-     value! : string; 
-     ngOnInit(){
+export class Footer{
+     playing : boolean = false;
+     value : string = "Start"; 
+     
+     
+     toogleValue(){
       if(this.playing){
-         this.value = "Stop"
+        this.value = "Stop";
+        this.playing = !this.playing;
       }else{
-        this.value = "play"
+        this.value = "Start"
+        this.playing = !this.playing;
       }
      }
 }
