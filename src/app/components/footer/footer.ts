@@ -9,7 +9,7 @@ import { OnInit } from '@angular/core';
 export class Footer{
      playing : boolean = false;
      value : string = "Start"; 
-     image : string = "../../../assets/start.jpg"
+     image : string = "../../../assets/start2.png"
      
      
      toogleValue(){
@@ -17,7 +17,7 @@ export class Footer{
         this.image = "../../../assets/stop.jpg";
         this.playing = !this.playing;
       }else{
-        this.image = "../../../assets/start.jpg"
+        this.image = "../../../assets/start2.png"
         this.playing = !this.playing;
       }
      }
